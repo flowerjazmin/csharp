@@ -1,0 +1,38 @@
+table th td
+{
+    border-width: 1px;
+    background-color: white;
+    border-color: black;
+    margin: auto;
+}
+
+tr:nth-child(odd)
+{
+    background-color: lightgray;
+}
+
+tr:nth-child(6)
+{
+    font-size: larger;
+}
+
+tr:nth-child(10) td
+{
+    border-width: 5px;
+}
+
+tr:nth-child(n + 6)
+{
+    font-family: Verdana;
+}
+
+tr:hover:nth-child(even)
+{
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(odd):hover
+{
+    background-color: gray;
+}

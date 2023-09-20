@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <form method="get">
+        <label for="nev">Név:</label>
+        <input type="text" id="nev" name="nev"><br>
+
+        <label for="cim">Lakcím:</label>
+        <input type="text" id="cim" name="cim"><br>
+
+        <label for="nem">Nem:</label>
+        <input type="radio" id="no" name="nem" value="no">
+        <label for="no">Nő</label>
+        <input type="radio" id="ferfi" name="nem" value="ferfi">
+        <label for="ferfi">Férfi</label><br>
+        
+        <label for="lakhely">Lakhely:</label>
+        <select id="lakhely" name="lakhely" size="1">
+            <option value="empty"></option>
+            <option value="Segesd">Segesd</option>
+            <option value="Nagyatad">Nagyatád</option>
+            <option value="Barcs">Barcs</option>
+            <option value="Somogyszob">Somogyszob</option>
+            <option value="Otvoskonyi">Ötvöskónyi</option>
+            <option value="Labod">Lábod</option>
+        </select><br>
+        <textarea name="bevitel" rows="10" cols="10"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
