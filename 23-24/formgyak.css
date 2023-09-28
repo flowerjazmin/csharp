@@ -1,0 +1,38 @@
+label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input
+{
+    border: 2px solid red;
+}
+
+a[target="_blank"]
+input[type="text"]
+{
+    width: 10px;
+}
+
+input[type="checkbox"]
+{
+    margin:10px;
+}
+
+input[type="password"]
+{
+    background-color: brown;
+}
+
+legend
+{
+    color:aqua;
+}
+
+fieldset
+{
+    width: 800px;
+    border: 10px dotted darkorchid;
+    margin:10px;
+}

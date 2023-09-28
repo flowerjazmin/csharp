@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formgyak.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <label>Regisztráció</label>
+
+    <fieldset>
+        <legend>Adatok</legend>
+        <label for="vezetek">Vezetéknév:</label>
+        <input type="text" id="vezetek" name="vezetek"><br>
+
+        <label for="kereszt">Keresztnév:</label>
+        <input type="text" id="kereszt" name="kereszt"><br>
+
+        <label for="születes">Születési idő:</label>
+        <input type="text" id="születes" name="születes"><br>
+
+        <label for="telefon">Telefonszám:</label>
+        <input type="text" id="telefon" name="telefon"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Jelszó megadás</legend>
+        <label for="pass">Jelszó:</label>
+        <input type="password" id="pass" name="pass"><br>
+
+        <label for="repeat">Jelszó mégegyszer:</label>
+        <input type="password" id="repeat" name="passrepeat">
+    </fieldset>
+    <fieldset>
+        <legend>Checkbox</legend>
+        <label for="check">Check1</label>
+        <input type="checkbox" id="check" name="check"><br>
+
+        <label for="check2">Check2</label>
+        <input type="checkbox" id="check2" name="check2"><br>
+
+        <label for="check3">Check3</label>
+        <input type="checkbox" id="check3" name="check3"><br>
+
+        <label for="check4">Check4</label>
+        <input type="checkbox" id="check4" name="check4"><br>
+
+        <label for="check5">Check5</label>
+        <input type="checkbox" id="check5" name="check5"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Nem megadó</legend>
+        <label for="nem">Nem:</label><br>
+        <input type="radio" id="ferfi" name="ferfi">
+        <label for="ferfi">Férfi</label>
+        <input type="radio" id="no" name="no">
+        <label for="no">Nő:</label>
+    </fieldset>
+    <fieldset>
+        <legend>Egyéb</legend>
+        <label for="egy">Egy</label>
+        <select id="egy" name="egy" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br>
+
+        <label for="ketto">Kettő</label>
+        <select id="ketto" name="ketto" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br>
+        
+        <textarea name="bevitel" rows="10" cols="10"></textarea><br>
+
+        <input type="submit">
+        <input type="reset">
+        <input type="button">
+    </fieldset>
+</body>
+</html>
